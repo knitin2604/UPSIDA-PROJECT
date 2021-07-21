@@ -1,6 +1,8 @@
 import react from 'react'
 import Footer from '../components/footer';
 import image from '../containers/fimg.png'
+import image1 from '../containers/face.png'
+import image2 from '../containers/twitter.png'
 
 export function FooterContainer() {
     return(
@@ -52,6 +54,8 @@ export function FooterContainer() {
                     <Footer.Link href="#">INFRASTRUCTURE & INDUSTRIAL DEVELOPMENT DEPARTMENT</Footer.Link>
                     <Footer.Link href="#">Government of Uttar Pradesh</Footer.Link>
                     <Footer.Link href="#">Tenders Uttar Pradesh</Footer.Link>
+                    <Footer.Link>Follow us</Footer.Link>
+                    <Footer.Link><img style={{width:'40px'}} href="#" src={image1}/><img  style={{width: '30px'}} href="#" src={image2}/> </Footer.Link>
                     
                 </Footer.Column>
                 </Footer.Row>
